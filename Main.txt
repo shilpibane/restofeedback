@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Feedback...</h2>
+
+<form action="/predict" method="POST">
+  Your Name:<br>
+  <input type="text" name="Name" value="">
+  <br>
+  Experience :<br>
+  <input type="text" name="Reviews" value="">Yrs
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called CODENAUTICS.</p>
+
+</body>
+</html>
